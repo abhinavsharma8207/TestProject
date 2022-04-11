@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/abhinavsharma8207/TestProject/issues"
   },
-  "homepage": "https://github.com/abhinavsharma8207/TestProject#readme"
+  "homepage": "https://github.com/abhinavsharma8207/TestProject#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
