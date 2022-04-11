@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express()
+var indexRouter = require('./router');
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
-app.get('/', function (req, res) {
-    res.send('Hello World');
- })
+app.use('/hello', indexRouter);
 
  const server = app.listen(8089, function () {
     const host = server.address().address
